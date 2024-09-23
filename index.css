@@ -1,0 +1,224 @@
+body {
+    background-color: #3A2C75
+    ;
+    width: 100%;
+}
+
+#menu {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: left;
+    justify-content: space-around;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    text-decoration: none;
+    color: #ffffff;
+}
+header{
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#logo {
+    width: 10px;
+}
+
+menu {
+    display: flex;
+}
+
+
+
+#hero {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin: 20px;
+    background-color: #cb6324;
+    border-radius: 10px;
+
+}
+.photohero{
+    width: 720px;
+    height: 470px;
+    border-radius: 10px;
+
+}
+
+#C1 {
+    flex-grow: 2;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+
+#C2 {
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 38%;
+    height: 100%;
+    color: #ffffff;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#C12 {
+    color: #ffffff;
+    height: 10%;
+}
+
+#C13 {
+    color: #ffffff;
+    height: 10%;
+
+}
+
+#C11 {
+    height: 10%;
+}
+#bouton{
+    border-color: black solid 1px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#blog{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    width: 100%;
+    color: #ffffff;
+}
+
+#a1, #a2, #a3, #a4{
+    height: 200px;
+    border-collapse: collapse;
+    border-radius: 5%;
+    width: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#al1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+.photoBBH{
+    border-radius: 5%;
+}
+#al2{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.articles{
+    display: flex;
+    flex-direction: center;
+    color: #ffffff;
+}
+
+header{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#photoBBH{
+    display: flex;
+    width: 40%;
+    height: 40%;
+    border-radius: 10%;
+}
+.photoneptunes{
+    width: 402px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+.paris92, .femme{
+    width: 100%;
+    height: 100%;  
+    border-radius: 5%;
+    background-color: rgb(255, 255, 255);
+}
+
+.equipemetz{
+    width: 402px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+h1{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.form1 {
+    color: #ffffff;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-flow: column;
+    margin: 50px 100px;
+    padding: 50px;
+    background-color: #ffffff;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 10px 20px 1px#ffffff;
+    border-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.articles{
+    color: #ffffff;
+}
+.titre{
+    display:flex;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+button {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+}
+
+.separator {
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}

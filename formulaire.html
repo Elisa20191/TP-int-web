@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>formulaire</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='formulaire.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <div id="menu">
+        <img class="logo" src="logo famillerurale.png" alt="logo" title="logo famillerurale" />
+
+            <a href="index.html">Accueil</a>            
+            <a href="blog.html">Qui sommes nous ?</a>
+            <a href="formulaire.html">Contact</a>
+        </div>
+
+    </header>
+    <h1>Formulaire</h1>
+    <h5>Remplissez ce formulaire et partagez nous vos idées ! </h5>
+    <form class="form1" action="./nouveauxarticles.html" method="post">
+        <label for="article_name">Nom / Prenom</label>
+        <input type="text" id="article_name" name="article_name" />
+        <br>
+        <label for="article_category">Genre</label>
+        <select name="article_category" id="category-select">
+            <option value="">--Choisir une option--</option>
+            <option value="National">Homme</option>
+            <option value="Europe">Femme</option>
+            <option value="International">Ne pas préciser</option>
+        </select>
+        <br>
+        <label for="texte">Idée(s) d'amelioration</label>
+        <textarea id="textarea" name="article_text"></textarea>
+        <br>
+        <label for="texte">Comment vous nous avez connue ?</label>
+        <textarea id="text" name="article_writer"></textarea>
+        <br>
+        <label for="texte">Autre</label>
+        <textarea id="url" name="article_url"></textarea>
+        <br>
+        <div class="button">
+            <button type="submit">Poster l'article</button>
+        </div>
+    </form>    
+</form>
+<div class="separator"></div>
+    <footer>
+        <div class="footer-content">
+            <img src="logo famillerurale.png" alt="logo famillerurale">
+            <p>&copy; 2023 Satine Rubens et Elisa Louisor. Tous droits réservés.</p>
+            <p>&copy; Fédération Nationale - 7 CITE D ANTIN 75009 PARIS - 01.44.91.88.88</p>
+        </div>
+    </footer>
+</body>
+</html>
+
