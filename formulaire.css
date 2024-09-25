@@ -11,6 +11,7 @@
     text-align: center;
     box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.2);
 }
+
 body {
     background-color: #3A2C75;
     width: 1440px;
@@ -51,7 +52,8 @@ a {
     color: #cb6324;
 
 }
-.photohero{
+
+.photohero {
     width: 720px;
     height: 470px;
 }
@@ -72,7 +74,7 @@ a {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 38%;
     height: 100%;
     color: #cb6324;
@@ -98,73 +100,84 @@ a:hover {
 #C11 {
     height: 10%;
 }
-#bouton{
+
+#bouton {
     border-color: black solid 1px;
     display: flex;
     justify-content: center;
 }
 
 
-#blog{
+#blog {
     display: flex;
     justify-content: space-around;
     justify-content: center;
     width: 1440px;
 }
 
-#a1, #a2, #a3, #a4{
+#a1,
+#a2,
+#a3,
+#a4 {
     height: 200px;
     border-collapse: collapse;
     border-radius: 5%;
     width: 400px;
 }
-#al1{
+
+#al1 {
     margin: 10px;
     padding: 10px;
 }
-.photoBBH{
+
+.photoBBH {
     border-radius: 5%;
 }
-#al2{
+
+#al2 {
     margin: 10px;
     padding: 10px;
 }
-.articles{
+
+.articles {
     display: flex;
     flex-direction: center;
 }
 
-header{
+header {
     display: flex;
     flex-wrap: nowrap;
 }
 
-#photoBBH{
+#photoBBH {
     display: flex;
     width: 40%;
     height: 40%;
     border-radius: 10%;
 }
-.photoneptunes{
-    width: 402px;
-    height: 200px;
-    border-radius: 5%;
-}
-.paris92{
-    width: 402px;
-    height: 200px;
-    border-radius: 5%;
-}
-.equipemetz{
+
+.photoneptunes {
     width: 402px;
     height: 200px;
     border-radius: 5%;
 }
 
-h1{
-    display:flex;
+.paris92 {
+    width: 402px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+.equipemetz {
+    width: 402px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+h1 {
+    display: flex;
     justify-content: center;
-    
+
 }
 
 .form1 {
@@ -184,13 +197,14 @@ h1{
 
 }
 
-h5{
-    display:flex;
+h5 {
+    display: flex;
     justify-content: center;
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+
 .footer-content {
     max-width: 800px;
     margin: 0 auto;
@@ -199,7 +213,8 @@ h5{
     align-items: center;
     color: #ffffff;
 }
-h1{
+
+h1 {
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 

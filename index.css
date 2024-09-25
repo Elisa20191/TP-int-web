@@ -1,6 +1,5 @@
 body {
-    background-color: #3A2C75
-    ;
+    background-color: #3A2C75;
     width: 100%;
 }
 
@@ -15,7 +14,8 @@ body {
     text-decoration: none;
     color: #ffffff;
 }
-header{
+
+header {
     color: #ffffff;
 }
 
@@ -23,6 +23,7 @@ a:hover {
     text-decoration: underline;
     font-weight: bold;
 }
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -48,7 +49,8 @@ menu {
     border-radius: 10px;
 
 }
-.photohero{
+
+.photohero {
     width: 720px;
     height: 470px;
     border-radius: 10px;
@@ -70,7 +72,7 @@ menu {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 38%;
     height: 100%;
     color: #ffffff;
@@ -96,7 +98,8 @@ a:hover {
 #C11 {
     height: 10%;
 }
-#bouton{
+
+#bouton {
     border-color: black solid 1px;
     display: flex;
     justify-content: center;
@@ -105,7 +108,7 @@ a:hover {
 }
 
 
-#blog{
+#blog {
     display: flex;
     justify-content: space-around;
     justify-content: center;
@@ -113,7 +116,10 @@ a:hover {
     color: #ffffff;
 }
 
-#a1, #a2, #a3, #a4{
+#a1,
+#a2,
+#a3,
+#a4 {
     height: 200px;
     border-collapse: collapse;
     border-radius: 5%;
@@ -121,80 +127,87 @@ a:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#al1{
+#al1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 10px;
     padding: 10px;
 }
-.photoBBH{
+
+.photoBBH {
     border-radius: 5%;
 }
 
-#al2{
+#al2 {
     margin: 10px;
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-.articles{
+
+.articles {
     display: flex;
     flex-direction: center;
     color: #ffffff;
 }
 
-header{
+header {
     display: flex;
     flex-wrap: nowrap;
 }
 
-#photoBBH{
+#photoBBH {
     display: flex;
     width: 40%;
     height: 40%;
     border-radius: 10%;
 }
-.enfants-bullesL{
-    width: 402px;
-    object-fit: contain;
-    height: 200px;
-    border-radius: 5%;
-}
-.photoneptunes{
-    width: 402px;
-    object-fit: contain;
-    height: 200px;
-    border-radius: 5%;
-}
-.photosolidarité{
+
+.enfants-bullesL {
     width: 402px;
     object-fit: contain;
     height: 200px;
     border-radius: 5%;
 }
 
-.paris92, .femme{
+.photoneptunes {
+    width: 402px;
+    object-fit: contain;
+    height: 200px;
+    border-radius: 5%;
+}
+
+.photosolidarité {
+    width: 402px;
+    object-fit: contain;
+    height: 200px;
+    border-radius: 5%;
+}
+
+.paris92,
+.femme {
     width: 100%;
-    height: 100%;  
-    border-radius: 5%;
-    object-fit: contain;
-}
-.femme portrait{
-    width: 100%;
-    height: 100%;  
+    height: 100%;
     border-radius: 5%;
     object-fit: contain;
 }
 
-.equipemetz{
+.femme portrait {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    object-fit: contain;
+}
+
+.equipemetz {
     width: 402px;
     height: 200px;
     border-radius: 5%;
 }
 
-h1{
-    display:flex;
+h1 {
+    display: flex;
     justify-content: center;
-    
+
 }
 
 .form1 {
@@ -213,15 +226,18 @@ h1{
     border-color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.articles{
+
+.articles {
     color: #ffffff;
 }
-.titre{
-    display:flex;
+
+.titre {
+    display: flex;
     justify-content: center;
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .footer-content {
     max-width: 800px;
     margin: 0 auto;
@@ -230,6 +246,7 @@ h1{
     align-items: center;
     color: #ffffff;
 }
+
 button {
     justify-content: center;
     align-items: center;

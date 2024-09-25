@@ -24,7 +24,8 @@ nav {
     margin-top: 50px;
     color: #F6FDC3;
 }
-header{
+
+header {
     color: #F6FDC3;
 }
 
@@ -32,6 +33,7 @@ a:hover {
     text-decoration: underline;
     font-weight: bold;
 }
+
 a {
     color: #F6FDC3;
     text-decoration: none;
@@ -50,15 +52,15 @@ a {
     padding-right: 2%;
     padding-bottom: 1%;
     border-radius: 10px;
-    
+
 }
 
 #image1 {
     max-width: 100%;
     justify-content: center;
     height: 100%;
-    border-radius: 8px; 
-    
+    border-radius: 8px;
+
 }
 
 .contenu {
@@ -67,8 +69,8 @@ a {
     padding-bottom: 2%;
     padding-left: 2%;
     padding-right: 2%;
-    color: #FF8080; 
-    background-color:#F6FDC3;
+    color: #FF8080;
+    background-color: #F6FDC3;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
 }
@@ -93,9 +95,9 @@ a {
     max-width: 100%;
     justify-content: left;
     height: auto;
-    border-radius: 8px; 
+    border-radius: 8px;
 }
-    
+
 .footer-content {
     max-width: 800px;
     margin: 0 auto;
