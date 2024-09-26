@@ -1,66 +1,73 @@
+#menu,
+a,
+header {
+    color: #f6fdc3
+}
+
+.article-header,
+.box,
+.contenu {
+    background-color: #f6fdc3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ff8080
+}
+
+#image1,
+#tof {
+    max-width: 100%
+}
+
+#menu,
+.boites,
+nav {
+    display: flex
+}
+
 body {
-    background-color: #FF8080;
-    margin: 30px;
+    background-color: #ff8080;
+    margin: 30px
 }
 
 nav {
-    display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 #logo {
-    width: 10px;
+    width: 10px
 }
 
 #menu {
-    display: flex;
     flex-wrap: nowrap;
     align-items: left;
     justify-content: space-around;
     width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 50px;
-    color: #F6FDC3;
-}
-
-header {
-    color: #F6FDC3;
+    margin-top: 50px
 }
 
 a:hover {
     text-decoration: underline;
-    font-weight: bold;
+    font-weight: 700
 }
 
 a {
-    color: #F6FDC3;
-    text-decoration: none;
+    text-decoration: none
 }
 
 .article-header {
-    background-color: #F6FDC3;
-    color: #FF8080;
     text-align: left;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: x-large;
-    border: 10px;
-    border-color: #F6FDC3;
-    padding-top: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 1%;
-    border-radius: 10px;
-
+    border: 10px #f6fdc3;
+    padding: 2% 2% 1%;
+    border-radius: 10px
 }
 
 #image1 {
-    max-width: 100%;
     justify-content: center;
     height: 100%;
-    border-radius: 8px;
-
+    border-radius: 8px
 }
 
 .contenu {
@@ -69,33 +76,28 @@ a {
     padding-bottom: 2%;
     padding-left: 2%;
     padding-right: 2%;
-    color: #FF8080;
-    background-color: #F6FDC3;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 10px;
+    border-radius: 10px
+}
+
+#tof,
+.box {
+    border-radius: 8px
 }
 
 .boites {
-    display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: 20px
 }
 
 .box {
     width: 24%;
-    background-color: #F6FDC3;
     padding: 10px;
-    border-radius: 8px;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #FF8080;
+    box-sizing: border-box
 }
 
 #tof {
-    max-width: 100%;
     justify-content: left;
-    height: auto;
-    border-radius: 8px;
+    height: auto
 }
 
 .footer-content {
@@ -104,12 +106,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #F6FDC3;
+    color: #f6fdc3
 }
 
 .separator {
     height: 2px;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 10px
 }

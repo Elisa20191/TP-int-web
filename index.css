@@ -1,6 +1,78 @@
+#menu,
+a {
+    text-decoration: none;
+    color: #fff
+}
+
+#hero,
+.photohero {
+    border-radius: 10px
+}
+
+#C1,
+#C2 {
+    height: 100%
+}
+
+#C11,
+#C12,
+#C13 {
+    height: 10%
+}
+
+#blog,
+#menu,
 body {
-    background-color: #3A2C75;
-    width: 100%;
+    width: 100%
+}
+
+#al1,
+#al2 {
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#C12,
+#C13,
+#C2,
+#blog,
+#bouton,
+#menu,
+.articles,
+.form1,
+a,
+header {
+    color: #fff
+}
+
+#hero,
+.form1 {
+    display: flex;
+    padding: 50px
+}
+
+#C2,
+#a1,
+#a2,
+#a3,
+#a4,
+#al1,
+#al2,
+#bouton,
+#menu,
+.form1,
+.titre {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.form1,
+.separator {
+    background-color: #fff
+}
+
+body {
+    background-color: #3a2c75
 }
 
 #menu {
@@ -8,63 +80,35 @@ body {
     flex-wrap: nowrap;
     align-items: left;
     justify-content: space-around;
-    width: 100%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 50px;
-    text-decoration: none;
-    color: #ffffff;
-}
-
-header {
-    color: #ffffff;
-}
-
-a:hover {
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
+    margin-top: 50px
 }
 
 #logo {
-    width: 10px;
+    width: 10px
 }
 
 menu {
-    display: flex;
+    display: flex
 }
 
-
-
 #hero {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 50px;
     margin: 20px;
-    background-color: #cb6324;
-    border-radius: 10px;
-
+    background-color: #cb6324
 }
 
 .photohero {
     width: 720px;
-    height: 470px;
-    border-radius: 10px;
-
+    height: 470px
 }
 
 #C1 {
     flex-grow: 2;
     width: 60%;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-
+    flex-wrap: nowrap
 }
 
 #C2 {
@@ -72,48 +116,24 @@ menu {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 38%;
-    height: 100%;
-    color: #ffffff;
-
+    width: 38%
 }
 
 a:hover {
     text-decoration: underline;
-    font-weight: bold;
-}
-
-#C12 {
-    color: #ffffff;
-    height: 10%;
-}
-
-#C13 {
-    color: #ffffff;
-    height: 10%;
-
-}
-
-#C11 {
-    height: 10%;
+    font-weight: 700
 }
 
 #bouton {
-    border-color: black solid 1px;
+    border-color: #000 solid 1px;
     display: flex;
-    justify-content: center;
-    color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center
 }
-
 
 #blog {
     display: flex;
     justify-content: space-around;
-    justify-content: center;
-    width: 100%;
-    color: #ffffff;
+    justify-content: center
 }
 
 #a1,
@@ -123,139 +143,92 @@ a:hover {
     height: 200px;
     border-collapse: collapse;
     border-radius: 5%;
-    width: 400px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#al1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 10px;
-    padding: 10px;
+    width: 400px
 }
 
 .photoBBH {
-    border-radius: 5%;
-}
-
-#al2 {
-    margin: 10px;
-    padding: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    border-radius: 5%
 }
 
 .articles {
     display: flex;
-    flex-direction: center;
-    color: #ffffff;
+    flex-direction: center
 }
 
 header {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap
 }
 
 #photoBBH {
     display: flex;
     width: 40%;
     height: 40%;
-    border-radius: 10%;
+    border-radius: 10%
 }
 
-.enfants-bullesL {
-    width: 402px;
-    object-fit: contain;
-    height: 200px;
-    border-radius: 5%;
-}
-
-.photoneptunes {
-    width: 402px;
-    object-fit: contain;
-    height: 200px;
-    border-radius: 5%;
-}
-
+.enfants-bullesL,
+.photoneptunes,
 .photosolidarité {
     width: 402px;
     object-fit: contain;
     height: 200px;
-    border-radius: 5%;
+    border-radius: 5%
 }
 
-.paris92,
-.femme {
+.femme,
+.femme portrait,
+.paris92 {
     width: 100%;
     height: 100%;
     border-radius: 5%;
-    object-fit: contain;
-}
-
-.femme portrait {
-    width: 100%;
-    height: 100%;
-    border-radius: 5%;
-    object-fit: contain;
+    object-fit: contain
 }
 
 .equipemetz {
     width: 402px;
     height: 200px;
-    border-radius: 5%;
+    border-radius: 5%
 }
 
 h1 {
     display: flex;
-    justify-content: center;
-
+    justify-content: center
 }
 
 .form1 {
-    color: #ffffff;
-    display: flex;
     justify-items: center;
     justify-content: center;
     flex-flow: column;
     margin: 50px 100px;
-    padding: 50px;
-    background-color: #ffffff;
     backdrop-filter: blur(10px);
     border-radius: 10px;
     text-align: center;
-    box-shadow: 5px 10px 20px 1px#ffffff;
-    border-color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 5px 10px 20px 1px#fff;
+    border-color: #fff
 }
 
-.articles {
-    color: #ffffff;
-}
-
+.footer-content,
 .titre {
     display: flex;
     justify-content: center;
-    color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff
 }
 
 .footer-content {
     max-width: 800px;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
+    align-items: center
 }
 
 button {
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 50px;
+    height: 50px
 }
 
 .separator {
     height: 2px;
-    background-color: rgb(255, 255, 255);
-    width: 100%;
+    width: 100%
 }
